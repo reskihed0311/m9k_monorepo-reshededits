@@ -1,6 +1,6 @@
 -- Variables that are used on both client and server
 SWEP.Gun = ("m9k_amd65") -- must be the name of your swep
-
+SWEP.UseHands = true
 SWEP.Category               = "M9K Assault Rifles"
 SWEP.Author                 = ""
 SWEP.Contact                = ""
@@ -19,7 +19,7 @@ SWEP.AutoSwitchFrom         = true -- Auto switch from if you pick up a better w
 SWEP.HoldType               = "ar2" -- how others view you carrying the weapon
 
 SWEP.ViewModelFOV           = 70
-SWEP.ViewModelFlip          = true
+SWEP.ViewModelFlip          = false
 SWEP.ViewModel              = "models/weapons/v_amd_65.mdl" -- Weapon view model
 SWEP.WorldModel             = "models/weapons/w_amd_65.mdl" -- Weapon world model
 SWEP.Base                   = "bobs_gun_base"
@@ -50,7 +50,7 @@ SWEP.Primary.SpreadIronSights   = .011 -- Ironsight accuracy, should be the same
 
 SWEP.SelectiveFire = true
 
-SWEP.SightsPos     = Vector( 3.5, -1, 2.115 )
-SWEP.SightsAng     = Vector( -3.701, 0, 0 )
-SWEP.RunSightsPos  = Vector( -5.198, -9.164, 0 )
-SWEP.RunSightsAng  = Vector( -8.825, -70, 0 )
+SWEP.SightsPos     = Vector(-3.5, 0, 1.97)
+SWEP.SightsAng     = Vector(-2.96, 0, 0)
+SWEP.RunSightsPos = Vector(0, 0, 0)
+SWEP.RunSightsAng = Vector(-30.101, 27.437, -47.137)
